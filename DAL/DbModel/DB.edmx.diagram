@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb68b71347ac4b27846fde137bdf1af0" Name="Diagram1">
+        <EntityTypeShape EntityType="KonkorModel.Answer" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.AppUpdate" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.BookName" Width="1.5" PointX="8.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Device" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.DeviceInformation" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Exam" Width="1.5" PointX="8.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.ExamDetail" Width="1.5" PointX="10.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Field" Width="1.5" PointX="5.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Grade" Width="1.5" PointX="10.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Lesson" Width="1.5" PointX="13.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Package" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Question" Width="1.5" PointX="7.5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.QuestionType" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Queue" Width="1.5" PointX="5.25" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.ReferenceQuestion" Width="1.5" PointX="5.25" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Role" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Subscriber" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.SubscriberPermission" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.sysdiagram" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.TextBook" Width="1.5" PointX="15.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.Topic" Width="1.5" PointX="18.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.User" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.ExamTest" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonkorModel.ExamTestQuestion" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="KonkorModel.FK_Answer_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Answer_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Question_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_BookName_Grade" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_BookName_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_BookName_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_ExamDetails_BookName" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Lesson_BookName" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_BookName" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_DeviceInformation_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_ExamDetails_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_ExamDetails_Lesson" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_ExamDetails_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Field_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Field_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Grade_Field" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_Field" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Grade_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Grade_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_Grade" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Lesson_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Lesson_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_Lesson" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Topic_Lesson" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Question_ReferenceQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Question_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Question_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Question_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Queue_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_RefranesQuestion_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_RefranesQuestion_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_SubscriberPermission_Subscriber" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_TextBook_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Topic_User" ManuallyRouted="false" />
+        <AssociationConnector Association="KonkorModel.FK_Topic_User1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
