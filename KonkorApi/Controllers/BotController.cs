@@ -19,7 +19,7 @@ namespace KonkorApi.Controllers
     //[Authorize]
     [RoutePrefix("api/Bot")]
     public class BotController : ApiController
-    {
+    { 
         private readonly IServiceRepository _serviceRepository;
         private readonly IFieldRepository _fieldRepository;
         private readonly IGradeRepository _gradeRepository;
