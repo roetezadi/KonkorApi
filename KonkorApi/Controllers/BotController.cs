@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 using DAL.Repository.ExamTest;
 
 namespace KonkorApi.Controllers
-{      
+{ 
     //[Authorize]
     [RoutePrefix("api/Bot")]
     public class BotController : ApiController
