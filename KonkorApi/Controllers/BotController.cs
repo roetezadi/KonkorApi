@@ -54,7 +54,7 @@ namespace KonkorApi.Controllers
         }
 
         public static string JsonSerializer(Dictionary<string, string> inputDic)
-        {
+        {  
             return JsonConvert.SerializeObject(inputDic);
         }
 
