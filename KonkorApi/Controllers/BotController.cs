@@ -62,7 +62,7 @@ namespace KonkorApi.Controllers
 
         ///<summary>
         ///vorodi : fieldid , gradeid , BooknameId , LessonId , TopicId , Hardness
-        ///khoroji : list of questions
+        ///khoroji : list of questions with their property
         /// </summary>
         [AcceptVerbs("GET")]
         [Route("GetExamTest")]
